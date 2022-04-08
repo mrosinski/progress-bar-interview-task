@@ -1,0 +1,11 @@
+# Project specific
+.angular
+node_modules/
+
+# IDE specific
+.vscode/
+.idea/
+*.iml
+
+# OS specific
+.DS_Store
