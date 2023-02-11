@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import {RootComponent} from "./root/root.component";
-import {ProgressBarComponent} from "./progress-bar/progress-bar.component";
+import { HomeComponent } from '././home/home.component';
+import { WindowComponent } from './window/window.component';
 
 @NgModule({
   declarations: [
-    RootComponent,
-    ProgressBarComponent,
+    HomeComponent,
+    WindowComponent,
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [RootComponent]
+  bootstrap: [HomeComponent]
 })
 export class AppModule { }

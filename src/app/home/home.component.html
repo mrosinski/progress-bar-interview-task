@@ -1,0 +1,32 @@
+<h1>Blinds Control Panel</h1>
+
+<section>
+  <button (click)="adjustBlindsPositionBy(-100)">0%</button>
+  <button (click)="adjustBlindsPositionBy(-30)">-30%</button>
+  <button (click)="adjustBlindsPositionBy(30)">+30%</button>
+  <button (click)="adjustBlindsPositionBy(100)">100%</button>
+</section>
+
+<h2>Living room</h2>
+<section>
+  <app-window [blindPosition]="blindsPosition"></app-window>
+  <app-window [blindPosition]="blindsPosition"></app-window>
+  <app-window [blindPosition]="blindsPosition"></app-window>
+  <app-window [blindPosition]="blindsPosition"></app-window>
+  <app-window [blindPosition]="blindsPosition"></app-window>
+</section>
+
+<h2>Bedroom #1</h2>
+<section>
+  <app-window [blindPosition]="blindsPosition"></app-window>
+  <app-window [blindPosition]="blindsPosition"></app-window>
+  <app-window [blindPosition]="blindsPosition"></app-window>
+</section>
+
+<h2>Bedroom #2</h2>
+<section>
+  <app-window [blindPosition]="blindsPosition"></app-window>
+  <app-window [blindPosition]="blindsPosition"></app-window>
+  <app-window [blindPosition]="blindsPosition"></app-window>
+  <app-window [blindPosition]="blindsPosition"></app-window>
+</section>

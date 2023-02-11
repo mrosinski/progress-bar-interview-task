@@ -1,0 +1,21 @@
+.window {
+  border: 5px double black;
+  height: 100px;
+  position: relative;
+  width: 75px;
+}
+
+.blind {
+  background-image: linear-gradient(0deg, gainsboro 50%, lightsteelblue 50%);
+  background-size: 4px 4px;
+  transition: 2s ease-in-out;
+}
+
+.blind-position {
+  font-size: 20px;
+  left: 0;
+  line-height: 100px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
